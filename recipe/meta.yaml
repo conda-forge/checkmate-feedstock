@@ -1,5 +1,5 @@
 {% set name = "checkmate" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.487" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/adedayo/checkmate/archive/v{{ version }}.tar.gz
-  sha256: 77146ed5cae25c637aba29253f4111012287a78ee0be0ef9ba1e11ebe8b0c79e
+  sha256: 2331bd2d43f886c213635d8bb0e9ee93813bd5049eade4a5e1d8ac86e8c8b6dc
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
