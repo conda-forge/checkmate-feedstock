@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: 0.9.487
+  version: "0.9.488"
 
 package:
   name: checkmate
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://github.com/adedayo/checkmate/archive/v${{ version }}.tar.gz
-    sha256: 2331bd2d43f886c213635d8bb0e9ee93813bd5049eade4a5e1d8ac86e8c8b6dc
+    sha256: c616800a0dd101ad5c6f4dedc696761160bc00c7e4d3af3185e4306c8f62f35c
     target_directory: checkmate
   - url: https://github.com/adedayo/checkmate-core/archive/refs/tags/v0.9.3.tar.gz
     sha256: 7c9b7e2c8138340f590dffaf5ee64a24c6b03255fd34eb606c4e267008edd779
